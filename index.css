@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+}
+.container1, .container2{
+    border: 1px solid hsl(216, 12%, 8%);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 300px 720px;
+    border-radius: 25px;
+    background: linear-gradient(hsla(213, 20%, 18%, 0.884),hsla(213, 20%, 18%, 0.284));
+    position: fixed;
+}
+.rating-component{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px
+}
+.rating-component button{
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin: 0px;
+    border: 1px solid hsl(213, 19%, 18%);
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+}
+
+
+.submit-btn{
+    margin: 30px 40px;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 18px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid black;
+}
+h2{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0px;
+    padding: 30px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+p{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    padding: 0px 30px;
+    margin-bottom: 0px;
+}
+
+
+.star{
+    width: 20px;
+    margin: 30px;
+    margin-bottom: 0px;
+    border: 1px solid hsl(213, 19%, 18%);
+    background-color: hsl(213, 19%, 18%, 1);
+    padding: 10px;
+    border-radius: 20px;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.rating-component button:hover{
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.receipt{
+    width: 150px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+.rate{
+    border: 1px solid hsl(213, 19%, 18%);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.selected{
+    background-color: hsl(217, 12%, 63%) !important;
+    color: white !important;
+}
+
